@@ -1,0 +1,155 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background-color: #6fd1ce;
+    color: rgb(165, 103, 103);
+    text-align: center;
+    padding: 40px 0; 
+  } 
+h1 {
+    color: #006666;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+}
+
+header img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto;
+}
+
+
+h1 {
+    color: #003366;
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #009696;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 30px 20px;
+    margin: 20px auto;
+    background: rgb(199, 241, 242);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; 
+}
+
+#about .about-content p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #2d2929;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+img {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #9ce1e1;
+    color: rgb(165, 103, 103);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Optional hover effect for links (if needed) */
+a:hover {
+    color: #005b96;
+    text-decoration: underline;
+}
+
+/* Media Queries for responsive design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    p, li {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p, li {
+        font-size: 16px;
+    }
+}
